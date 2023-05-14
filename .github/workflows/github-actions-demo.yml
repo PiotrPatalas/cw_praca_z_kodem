@@ -1,5 +1,7 @@
 name: CI/CD
-on: push
+on: 
+  push:
+    branches: [main, master]
 jobs:
   python_versions:
     runs-on: ubuntu-latest
